@@ -1,0 +1,36 @@
+﻿Build started 2020/5/3 星期日 17:54:31.
+     1>Project "E:\VSFile\CinematicRender_10\CinematicRender_10\CinematicRender_10.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\VSFile\CinematicRender_10\Win32\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\CinematicRender_10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing cinematicrender.h...
+         Uic'ing cinematicrender.ui...
+         Rcc'ing cinematicrender.qrc...
+     1>RCC : warning : No resources in 'E:\VSFile\CinematicRender_10\CinematicRender_10\cinematicrender.qrc'.
+         
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.4\include\QtCore /ID:\Qt\4.8.4\include\QtGui /ID:\Qt\4.8.4\include\QtXml /ID:\Qt\4.8.4\include\QtOpenGL /ID:\Qt\4.8.4\include\QtHelp /ID:\Qt\4.8.4\include\QtXmlPatterns /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_OPENGL_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cinematicrender.cpp GeneratedFiles\Debug\moc_cinematicrender.cpp main.cpp
+         cinematicrender.cpp
+         moc_cinematicrender.cpp
+         main.cpp
+         Generating Code...
+         D:\VS2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.4\include\QtCore /ID:\Qt\4.8.4\include\QtGui /ID:\Qt\4.8.4\include\QtXml /ID:\Qt\4.8.4\include\QtOpenGL /ID:\Qt\4.8.4\include\QtHelp /ID:\Qt\4.8.4\include\QtXmlPatterns /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_OPENGL_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_cinematicrender.cpp
+         qrc_cinematicrender.cpp
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VSFile\CinematicRender_10\Win32\Debug\\CinematicRender_10.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.4\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtXmld4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtHelpd4.lib QtXmlPatternsd4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CinematicRender_10.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VSFile\CinematicRender_10\Win32\Debug\CinematicRender_10.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VSFile\CinematicRender_10\Win32\Debug\CinematicRender_10.lib" /MACHINE:X86 Debug\cinematicrender.obj
+         Debug\moc_cinematicrender.obj
+         Debug\qrc_cinematicrender.obj
+         Debug\main.obj
+         CinematicRender_10.vcxproj -> E:\VSFile\CinematicRender_10\Win32\Debug\CinematicRender_10.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VSFile\CinematicRender_10\Win32\Debug\\CinematicRender_10.exe;#1" /manifest Debug\CinematicRender_10.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CinematicRender_10.unsuccessfulbuild".
+         Touching "Debug\CinematicRender_10.lastbuildstate".
+     1>Done Building Project "E:\VSFile\CinematicRender_10\CinematicRender_10\CinematicRender_10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.87

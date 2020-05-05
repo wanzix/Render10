@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5cb5d493-2adf-4eff-b4e3-0dd261f357a3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{be3f4749-3da5-443b-ad85-3f57473b34ee}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{f8d269f3-3dce-4767-b400-2b93d462cd82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Lighting">
+      <UniqueIdentifier>{12ecf3a5-97f1-4922-8cf7-1a20acdba721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Appearance">
+      <UniqueIdentifier>{336cfa90-b973-4179-9850-12176784d66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{786e99ab-af3a-479b-9c4b-24a97b995c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presets">
+      <UniqueIdentifier>{b750b165-4cfd-45fa-9991-58af5119b2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{09b61c50-5f64-4fa3-9f53-280b74bb6501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8a4a0a4c-b31e-43d8-9d32-c136cb9fbf61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{07435c5e-b969-4cbb-b0a1-b655337ec867}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_cinematicrender.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDialog.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareWidget.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HardwareWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HardwareWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpGet.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSettingsDialog.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoadSettingsDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoadSettingsDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsDockWidget.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SettingsDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SettingsDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupDialog.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StartupDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StartupDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateWidget.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UpdateWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UpdateWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Background.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Background.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Light.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Light.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Lighting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Lighting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingDockWidget.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LightingDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LightingDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingWidget.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LightingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LightingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LightsWidget.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LightsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LightsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundWidget.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BackgroundWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BackgroundWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LightWidget.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LightWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LightWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Appearance.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="AppearanceDockWidget.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppearanceDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppearanceDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AppearanceSettingsWidget.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppearanceSettingsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppearanceSettingsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundItem.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeItem.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientRamp.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GridItem.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Histogram.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Histogram.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramItem.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Node.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Node.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeItem.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="NodePropertiesWidget.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodePropertiesWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodePropertiesWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeSelectionWidget.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeSelectionWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeSelectionWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferFunction.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransferFunction.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransferFunction.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferFunctionItem.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferFunctionView.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransferFunctionView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransferFunctionView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferFunctionWidget.cpp">
+      <Filter>Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransferFunctionWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransferFunctionWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Aperture.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Aperture.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Aperture.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ApertureWidget.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ApertureWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ApertureWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Camera.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Camera.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDockWidget.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraWidget.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Film.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Film.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FilmWidget.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FilmWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FilmWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Focus.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Focus.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Focus.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FocusWidget.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FocusWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FocusWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Projection.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Projection.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionWidget.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProjectionWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProjectionWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Preset.cpp">
+      <Filter>Presets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Preset.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Preset.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PresetsWidget.cpp">
+      <Filter>Presets</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PresetsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PresetsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsDockWidget.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StatisticsDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StatisticsDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsWidget.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StatisticsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StatisticsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDockWidget.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LogDockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LogDockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Logger.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Logger.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWidget.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LogWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LogWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Controls.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Controls.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaUtilities.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Flags.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractorStyleRealisticCamera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderThread.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RenderThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RenderThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectrum.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Stable.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Status.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Status.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Variance.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeMapper.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="VtkWidget.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VtkWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VtkWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="cinematicrender.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AboutDialog.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HardwareWidget.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HttpGet.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoadSettingsDialog.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SettingsDockWidget.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StartupDialog.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UpdateWidget.h">
+      <Filter>main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Background.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Light.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lighting.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LightingDockWidget.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LightingWidget.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LightsWidget.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BackgroundWidget.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LightWidget.h">
+      <Filter>Lighting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AppearanceDockWidget.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AppearanceSettingsWidget.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Histogram.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Node.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodePropertiesWidget.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeSelectionWidget.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransferFunction.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransferFunctionView.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransferFunctionWidget.h">
+      <Filter>Appearance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Aperture.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ApertureWidget.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Camera.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CameraDockWidget.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CameraWidget.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Film.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FilmWidget.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Focus.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FocusWidget.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Projection.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProjectionWidget.h">
+      <Filter>Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Preset.h">
+      <Filter>Presets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PresetsWidget.h">
+      <Filter>Presets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StatisticsDockWidget.h">
+      <Filter>Statistics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StatisticsWidget.h">
+      <Filter>Statistics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogDockWidget.h">
+      <Filter>Logging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Logger.h">
+      <Filter>Logging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogWidget.h">
+      <Filter>Logging</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controls.h">
+      <Filter>Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RenderThread.h">
+      <Filter>Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Status.h">
+      <Filter>Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VtkWidget.h">
+      <Filter>Core</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Core.cu">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Blur.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Buffer.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Camera.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Core.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Denoise.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Estimate.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Lighting.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Model.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="MonteCarlo.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="MultipleScattering.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="NearestIntersection.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="RayMarching.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="RNG.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Sample.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Shader.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="SingleScattering.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="SpecularBloom.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="ToneMap.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Transport.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Utilities.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Variance.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="View.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Woodcock.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Appearance.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundItem.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="EdgeItem.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientRamp.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="GridItem.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramItem.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeItem.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferFunctionItem.h">
+      <Filter>Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaUtilities.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Dll.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumerations.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Flags.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractorStyleRealisticCamera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectrum.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Stable.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Variance.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeMapper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
